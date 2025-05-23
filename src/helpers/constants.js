@@ -1,4 +1,4 @@
-export const headerMenu = [
+export const HEADERMENU = [
   { name: "Wah!", path: "/home" },
   { name: "My Stuff", path: "/mystuff" },
   { name: "Wallet", path: "/wallet" },
@@ -6,7 +6,42 @@ export const headerMenu = [
   { name: "Chat", path: "/chat" },
 ];
 
-export const products = [
+export const SWIPER_CONFIG = {
+  spaceBetween: 40,
+  slidesPerView: 5
+};
+
+export const REVIEW_STARS = [
+  { stars: 5, count: 70 },
+  { stars: 4, count: 8 },
+  { stars: 3, count: 6 },
+  { stars: 2, count: 3 },
+  { stars: 1, count: 1 },
+];
+
+export const HEADER_CONSTANTS = {
+    LOGO: {
+        SRC: '/assets/images/logo.png',
+        ALT: 'Wah!',
+        HEIGHT: 'h-10',
+        WIDTH: 'w-10',
+    },
+    SEARCH: {
+        PLACEHOLDER: 'What are you looking for?',
+    },
+    MOBILE_DRAWER: {
+        WIDTH: 'w-full',
+        TRANSITION_DURATION: 'duration-300',
+    },
+    ICONS: {
+        SIZE: {
+            SMALL: 'size-4',
+            MEDIUM: 'size-6',
+        },
+    },
+}; 
+
+export const PRODUCTS = [
   {
     product: "Havic HV G-92 Gamepad",
     discount: "40%",
@@ -36,8 +71,7 @@ export const products = [
     images: [
       "/assets/images/keyboard.webp",
       "/assets/images/mouse.png",
-      "/assets/images/laptop.png",
-      "/assets/images/logo.png",
+      "/assets/images/laptop.webp",
     ]
   },
   {
