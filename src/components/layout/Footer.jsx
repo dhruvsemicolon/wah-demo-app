@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
     return (
         <div>
-            <footer class="bg-orange-600 text-white mt-16">
+            <footer class="bg-orange-500 text-white mt-16">
                 <div className='max-w-[1500px] mx-auto'>
                     <div class=" px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
                         <div>
@@ -19,13 +19,13 @@ export default function Footer() {
                                 Support
                             </h5>
                             <ul class="text-sm space-y-1">
-                                <li>
+                                <li className="transition-all duration-200 ease-in-out cursor-pointer">
                                     Phone: +1 123 456 7890
                                 </li>
-                                <li>
+                                <li className="transition-all duration-200 ease-in-out cursor-pointer">
                                     Email: support@wah.com
                                 </li>
-                                <li>
+                                <li className="transition-all duration-200 ease-in-out cursor-pointer">
                                     Help Center
                                 </li>
                             </ul>
@@ -35,16 +35,16 @@ export default function Footer() {
                                 Account
                             </h5>
                             <ul class="text-sm space-y-1">
-                                <li>
+                                <li className="transition-all duration-200 ease-in-out cursor-pointer">
                                     My Account
                                 </li>
-                                <li>
+                                <li className="transition-all duration-200 ease-in-out cursor-pointer">
                                     My Stuff
                                 </li>
-                                <li>
+                                <li className="transition-all duration-200 ease-in-out cursor-pointer">
                                     Wallet
                                 </li>
-                                <li>
+                                <li className="transition-all duration-200 ease-in-out cursor-pointer">
                                     Chat
                                 </li>
                             </ul>
@@ -54,16 +54,16 @@ export default function Footer() {
                                 Quick Link
                             </h5>
                             <ul class="text-sm space-y-1">
-                                <li>
+                                <li className="transition-all duration-200 ease-in-out cursor-pointer">
                                     Home
                                 </li>
-                                <li>
+                                <li className="transition-all duration-200 ease-in-out cursor-pointer">
                                     Wallet
                                 </li>
-                                <li>
+                                <li className="transition-all duration-200 ease-in-out cursor-pointer">
                                     FAQ
                                 </li>
-                                <li>
+                                <li className="transition-all duration-200 ease-in-out cursor-pointer">
                                     Contact
                                 </li>
                             </ul>
@@ -75,20 +75,20 @@ export default function Footer() {
                                 Download App
                             </h5>
                             <div class="flex items-center space-x-4">
-                                <img alt="App Store download QR code" class="w-20 h-6 object-contain" height="30" src="https://storage.googleapis.com/a1aa/image/6683f89c-a39d-461e-7024-e48fd4279eba.jpg" width="100" />
-                                <img alt="Google Play download QR code" class="w-20 h-6 object-contain" height="30" src="https://storage.googleapis.com/a1aa/image/8d6ee04e-1f76-4ad7-eac4-4739e2b3d451.jpg" width="100" />
+                                <img alt="App Store download QR code" class="w-20 h-6 object-contain cursor-pointer transition-transform duration-200 ease-in-out hover:scale-105" height="30" src="https://storage.googleapis.com/a1aa/image/6683f89c-a39d-461e-7024-e48fd4279eba.jpg" width="100" />
+                                <img alt="Google Play download QR code" class="w-20 h-6 object-contain cursor-pointer transition-transform duration-200 ease-in-out hover:scale-105" height="30" src="https://storage.googleapis.com/a1aa/image/8d6ee04e-1f76-4ad7-eac4-4739e2b3d451.jpg" width="100" />
                             </div>
                         </div>
                         <div class="flex space-x-6 text-white text-lg">
-                            <a aria-label="Facebook" class="hover:text-gray-200" href="#">
+                            <a aria-label="Facebook" class="hover:text-orange-200 transition-all duration-200 ease-in-out hover:text-xl cursor-pointer" href="#">
                                 <i class="fab fa-facebook-f">
                                 </i>
                             </a>
-                            <a aria-label="Twitter" class="hover:text-gray-200" href="#">
+                            <a aria-label="Twitter" class="hover:text-orange-200 transition-all duration-200 ease-in-out hover:text-xl cursor-pointer" href="#">
                                 <i class="fab fa-twitter">
                                 </i>
                             </a>
-                            <a aria-label="Instagram" class="hover:text-gray-200" href="#">
+                            <a aria-label="Instagram" class="hover:text-orange-200 transition-all duration-200 ease-in-out hover:text-xl cursor-pointer" href="#">
                                 <i class="fab fa-instagram">
                                 </i>
                             </a>
